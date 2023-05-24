@@ -1,0 +1,13 @@
+.CartWidget {
+    position: relative;
+    margin-top: 25px;
+    height: 30px;
+  }
+
+
+  .carrito p{
+    margin: 0;
+    line-height: 30px;
+    color: rgb(52, 40, 40);
+  }
+

@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #a7cdc6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.249);
+    
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #03e2cf;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #185145;
+  }
+  
+  .number {
+    margin: 0 10px;
+    font-size: 24px;
+  }
+  
+  .addToCart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .addToCart button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25%;
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+  }
+
+  .agregarCarrito{
+    height: 35px;
+    width: 35px;
+  }
+  
+  .addToCart button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .addToCart button:hover {
+    background-color: #f4511e;
+  }
