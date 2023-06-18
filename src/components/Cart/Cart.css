@@ -1,0 +1,28 @@
+.CartItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+  }
+  
+  .CartItem p {
+    margin: 0;
+    margin-right: 100px;
+  }
+  
+  .CartItem p:first-child {
+    flex: 1;
+    margin-right: 10px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .CartItem p:last-child {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  

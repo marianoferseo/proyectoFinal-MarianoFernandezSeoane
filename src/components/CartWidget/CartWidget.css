@@ -1,13 +1,31 @@
-.CartWidget {
-    position: relative;
-    margin-top: 25px;
-    height: 30px;
-  }
+.CartImg {
+  position: relative;
+  margin-top: 25px;
+  height: 30px;
+  
+  
+  transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+.carrito {
+  display: flex;
+  align-items: center;
+}
+
+.carrito a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  color: white;
+  padding: 3px 3px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.carrito a span {
+  margin-left: 5px;
+}
 
 
-  .carrito p{
-    margin: 0;
-    line-height: 30px;
-    color: rgb(52, 40, 40);
-  }
 
